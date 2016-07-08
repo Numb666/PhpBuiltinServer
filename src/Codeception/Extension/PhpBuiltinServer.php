@@ -5,6 +5,8 @@
 
 namespace Codeception\Extension;
 
+require_once __DIR__.'/../../../../../../vendor/autoload.php';
+
 use Codeception\Configuration;
 use Codeception\Exception\ModuleConfigException;
 use Codeception\Platform\Extension;
